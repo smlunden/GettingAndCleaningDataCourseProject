@@ -1,11 +1,10 @@
-GettingAndCleaningDataCourseProject
-===================================
+Getting and Cleaning Data Course Project
+----------------------------------------
 
 Course Project: creating a tidy data set from raw data
 
 This code assumes the data files from the (UCI Machine Learning Repository)[ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip] have been downloaded and unzipped in the user's R working directory. The following code may be used to do so (this may take some time)
 > fileUrl = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
->
 > download.file(fileUrl, destfile = "UCI HAR Dataset.zip", method = "curl")
 >
 > unzip("UCI HAR Dataset.zip")
