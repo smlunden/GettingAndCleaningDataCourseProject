@@ -3,19 +3,17 @@ Code Book
 
 For further reference, the code book within the download (called features_info.txt) may be consulted.
 
-activity  
-	What activity was taking place as the measurement occurred  
-		WALKING  
-		WALKING_UPSTAIRS  
-		WALKING_DOWNSTAIRS  
-		SITTING  
-		STANDING  
-		LAYING  
+activity - What activity was taking place as the measurement occurred  
+* WALKING  
+* WALKING_UPSTAIRS  
+* WALKING_DOWNSTAIRS  
+* SITTING  
+* STANDING  
+* LAYING  
 		
 
-subjectid  
-	The id number given to each of 30 volunteers.  
-		numbers 1 - 30  
+subjectid - The id number given to each of 30 volunteers.  
+* numbers 1 - 30  
 		
 
 The remaining columns are the average of all of the mean or standard deviation measurements for each activity-subject combination. The original data is normalized [-1,1]. The names notate the following:
